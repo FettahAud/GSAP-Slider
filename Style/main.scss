@@ -11,6 +11,7 @@ body {
 	height: 100vh;
 }
 .container {
+	visibility: hidden;
 	.arrows {
 		position: absolute;
 		z-index: 10;
