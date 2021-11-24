@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73.001" height="26" viewBox="0 0 73.001 26">
+  <g id="Arrows" transform="translate(-1246 -595)">
+    <g id="Left" transform="translate(1244.001 592)">
+      <rect id="bg" width="28" height="26" transform="translate(1.999 3)" fill="#fff" opacity="0"/>
+      <path id="Path_4" data-name="Path 4" d="M29.018,17H2.982a.984.984,0,0,1-.908-.617,1.013,1.013,0,0,1,.213-1.09l11.789-12a.969.969,0,0,1,1.389,0,1.012,1.012,0,0,1,0,1.414L5.354,15H29.017a1,1,0,0,1,0,2Z"/>
+      <path id="Path_5" data-name="Path 5" d="M14.772,29a.974.974,0,0,1-.695-.293l-7.86-8a1.012,1.012,0,0,1,0-1.414.969.969,0,0,1,1.389,0l7.86,8a1.012,1.012,0,0,1,0,1.414A.97.97,0,0,1,14.772,29Z"/>
+    </g>
+    <g id="Right" transform="translate(1319.001 621) rotate(180)">
+      <rect id="bg-2" data-name="bg" width="28" height="26" transform="translate(28.001 26) rotate(-180)" fill="#fff" opacity="0"/>
+      <path id="Path_4-2" data-name="Path 4" d="M27.019,14H.983a.984.984,0,0,1-.908-.617,1.013,1.013,0,0,1,.213-1.09l11.789-12a.969.969,0,0,1,1.389,0,1.012,1.012,0,0,1,0,1.414L3.355,12H27.018a1,1,0,0,1,0,2Z" transform="translate(0 0)"/>
+      <path id="Path_5-2" data-name="Path 5" d="M8.843,10a.974.974,0,0,1-.695-.293l-7.86-8a1.012,1.012,0,0,1,0-1.414.969.969,0,0,1,1.389,0l7.86,8a1.012,1.012,0,0,1,0,1.414A.97.97,0,0,1,8.843,10Z" transform="translate(3.93 16)"/>
+    </g>
+    <rect id="Middel_Line" width="14" height="2" rx="1" transform="translate(1275.75 607)"/>
+  </g>
+</svg>
