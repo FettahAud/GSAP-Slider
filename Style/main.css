@@ -12,6 +12,10 @@ body {
   height: 100vh;
 }
 
+.container {
+  visibility: hidden;
+}
+
 .container .arrows {
   position: absolute;
   z-index: 10;
@@ -57,6 +61,7 @@ body {
 
 .container .slide1 {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  z-index: 1;
 }
 
 .container .slide1 .img {
@@ -77,7 +82,7 @@ body {
 }
 
 .container .slide3 {
-  z-index: -3;
+  z-index: -2;
   clip-path: polygon(7% 7%, 93% 7%, 93% 93%, 7% 93%);
 }
 

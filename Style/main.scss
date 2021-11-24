@@ -53,6 +53,7 @@ body {
 	}
 	.slide1 {
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+		z-index: 1;
 		.img {
 			background-image: url("../Assets/bg1.jpg");
 		}
@@ -70,7 +71,7 @@ body {
 		}
 	}
 	.slide3 {
-		z-index: -3;
+		z-index: -2;
 		clip-path: polygon(7% 7%, 93% 7%, 93% 93%, 7% 93%);
 		.img {
 			background-image: url("../Assets/bg3.jpg");
