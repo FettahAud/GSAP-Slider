@@ -8,22 +8,24 @@ const slide3 = document.querySelector('.slide3');
 const tl = gsap.timeline({ paused: true });
 
 
-tl
-    .to(slide1, { clipPath: 'polygon(7% 7%, 93% 7%, 93% 93%, 7% 93%)' })
-    .to(slide1, { clipPath: 'polygon(93% 7%, 93% 7%, 93% 93%, 93% 93%)' }, '+=1')
-    .to(slide2, { clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)', zIndex: 1 }, '+=1')
-    .addPause()
-    .to(slide2, { clipPath: 'polygon(7% 7%, 93% 7%, 93% 93%, 7% 93%)' }, '+=1')
-    .to(slide2, { clipPath: 'polygon(93% 7%, 93% 7%, 93% 93%, 93% 93%)', zIndex: -1 }, '+=1.5')
-    .to(slide3, { clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)', zIndex: 1 }, '+=1')
-    .addPause()
+window.addEventListener('load', () => {
+    tl
+        .to(slide1, { clipPath: 'polygon(7% 7%, 93% 7%, 93% 93%, 7% 93%)' })
+        .to(slide1, { clipPath: 'polygon(93% 7%, 93% 7%, 93% 93%, 93% 93%)' }, '+=1')
+        .to(slide2, { clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)', zIndex: 1 }, '+=1')
+        .addPause()
+        .to(slide2, { clipPath: 'polygon(7% 7%, 93% 7%, 93% 93%, 7% 93%)' }, '+=1')
+        .to(slide2, { clipPath: 'polygon(93% 7%, 93% 7%, 93% 93%, 93% 93%)', zIndex: -1 }, '+=1.5')
+        .to(slide3, { clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)', zIndex: 1 }, '+=1')
+        .addPause()
 
-left.addEventListener('click', () => {
-    tl.reverse()
-});
-right.addEventListener('click', () => {
-    tl.play()
-});
+    left.addEventListener('click', () => {
+        tl.reverse()
+    });
+    right.addEventListener('click', () => {
+        tl.play()
+    });
+})
 
 
 
